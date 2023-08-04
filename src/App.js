@@ -1,4 +1,6 @@
 // Import data
+import React from "react";
+import Gallery from "./Gallery";
 
 // Import components
 import './App.css';
@@ -6,10 +8,9 @@ import './App.css';
 function App(){
   return (
     <div>
-      <h1>craigslist</h1>
-      <div className="App">
-        {/* Your content will go here! */}
-      </div>
+      <h1>Craigslist</h1>
+      <Gallery/>
+      <div className="App">{/*Your content will go in here! */}</div>
     </div>
   );
 }
