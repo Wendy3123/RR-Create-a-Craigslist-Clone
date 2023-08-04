@@ -1,7 +1,13 @@
 import React from "react";
 
-export default function Posting({data}) {
+export default function Posting({ data }) {
     return (
-    <div>{data.title}</div>
+        <>
+            <h1>{data.title}</h1>
+            <div>{data.description}</div>
+            <div>{data.price}</div>
+            <div>{data.imageURL}</div>
+        </>
+
     )
 }
